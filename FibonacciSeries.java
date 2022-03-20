@@ -4,7 +4,7 @@ public class FibonacciSeries
 {
 	public static void main(String[] args)
 	{
-		int range=8;
+		int range = 8;
 		int firstNum = 0;
 		int secNum = 1;
 		int sum = 0;
