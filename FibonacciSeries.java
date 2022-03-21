@@ -8,16 +8,16 @@ public class FibonacciSeries
 		int firstNum = 0;
 		int secNum = 1;
 		int sum = 0;
-		if(range>=1)
-			System.out.println(firstNum);
-		if(range>=2)
-			System.out.println(secNum);
-		for(int i=2;i<range;++i)
+		System.out.println(firstNum);
+		System.out.println(secNum);
+		
+		for(int i=1; i<=range; i++)
 		{
-			sum = firstNum+secNum;
+			sum = firstNum + secNum;
+			System.out.println(sum);
 			firstNum = secNum;
 			secNum = sum;
-			System.out.println(sum);
+			
 		}
 	}
 }
